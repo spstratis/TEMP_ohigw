@@ -1,0 +1,173 @@
+/* 
+  Localizable.strings
+  Omron2
+
+  Created by S.Stratis on 4/2/14.
+  Copyright (c) 2014 Justin Helmick. All rights reserved.
+*/
+
+/* Please select User A or User B before continuing */
+"TakeReading_Message_NoUserSelected" = "Please select User A or User B before continuing (nl)";
+
+/* Some of the provided data was corrupt or in an unexpected format. Please ensure your data is not corrupt and upload again. If new data is added to the device that is not corrupt, good records will be loaded and corrupt records will be ignored. */
+"TakeReading_StatusMessage_CorruptData" = "Bepaalde geleverde gegevens zijn beschadigd of hebben een onverwachte indeling.  Zorg dat de gegevens niet zijn beschadigd en upload deze opnieuw.  Als nieuwe gegevens worden toegevoegd aan het apparaat die niet beschadigd zijn, worden goede records geladen en beschadigde records genegeerd.";
+
+/* An error occurred while communicating with your device. Please remove the device, reconnect, ensure that any required cable is connected tightly and atempt the reading again. */
+"TakeReading_StatusMessage_DeviceError" = "Er is een fout opgetreden tijdens de communicatie met je apparaat.  Verwijder het apparaat, sluit het opnieuw aan, zorg dat alle vereiste kabels goed zijn aangesloten en probeer opnieuw te lezen.";
+
+/* The device could not be found. Please be sure that it is connected properly with any necessary cables secured and attempt the reading again. */
+"TakeReading_StatusMessage_DeviceNotFound" = "Kan het apparaat niet vinden.  Zorg dat het apparaat goed is aangesloten met de nodige kabels en probeer opnieuw te lezen.";
+
+/* An error occurred. An invalid device was identified in the upload token. Please retry your upload at a later time. */
+"TakeReading_StatusMessage_IncorrectDeviceType" = "Er is een fout opgetreden.  Er is een ongeldig apparaat aangetroffen in het uploadtoken.  Probeer opnieuw te uploaden op een later tijdstip.";
+
+/* Your readings could not be uploaded. All measurements on the device were found to have a date or time in the future. Please check your device settings. */
+"TakeReading_StatusMessage_InvalidItemsFutureDated" = "Kan de waarden niet uploaden.  Alle metingen op het apparaat hebben een datum of tijd die in de toekomst ligt.  Controleer de apparaatinstellingen.";
+
+/* An error occurred. An invalid upload token was processed. Please retry your upload at a later time. */
+"TakeReading_StatusMessage_InvalidUploadToken" = "Er is een fout opgetreden.  Er is een ongeldig uploadtoken verwerkt. Probeer opnieuw te uploaden op een later tijdstip.";
+
+/* The Upload Service is not currently available. Please try again in a few minutes. If you continue experiencing issues, please submit a support ticket. */
+"TakeReading_StatusMessage_ServiceException" = "De uploadservice is momenteel niet beschikbaar.  Probeer het over enkele minuten opnieuw.  Als de problemen aanhouden, kun je een supportticket indienen.";
+
+/* Your information was successfully uploaded. */
+"TakeReading_StatusMessage_Success" = "De informatie is geüpload.  Aantal items: [%d]";
+
+/* Your readings were successfully uploaded. However, there were no new readings to process. */
+"TakeReading_StatusMessage_SuccessNoNewItems" = "De waarden zijn geüpload.  Er zijn echter geen nieuwe waarden om te verwerken.";
+
+/* Your readings were successfully uploaded. However, there were some invalid items. */
+"TakeReading_StatusMessage_SuccessSomeInvalidItems" = "De waarden zijn geüpload.  Er zijn echter enkele ongeldige items.  Aantal items: [%d]";
+
+/* Your readings were successfully uploaded. However, there were some invalid measurements with dates or times that are in the future. Measurements with dates in the future are rejected - please check your device. */
+"TakeReading_StatusMessage_SuccessSomeInvalidItemsFutureDated" = "De waarden zijn geüpload.  Er zijn echter enkele ongeldige metingen met datums of tijden die in de toekomst liggen.  Metingen met datums in de toekomst worden genegeerd. Controleer het apparaat.  Aantal items: [%d]";
+
+/* An unexpected error occurred while loading your device's driver. If this issue continues, please submit a support ticket. */
+"TakeReading_StatusMessage_UnableToLoadDeviceDriver" = "Er is een onverwachte fout opgetreden tijdens het laden van de apparaatdriver.  Als dit probleem aanhoudt, kun je een supportticket indienen.";
+
+/* An unexpected error occurred while communicating with your device. Please remove the device, recconect, ensure that any required cable is connected tightly and attempt the reading again. */
+"TakeReading_StatusMessage_UnexpectedError" = "Er is een onverwachte fout opgetreden tijdens de communicatie met je apparaat.  Verwijder het apparaat, sluit het opnieuw aan, zorg dat alle vereiste kabels goed zijn aangesloten en probeer opnieuw te lezen.";
+
+/* The device reading was cancelled by the user. Please retry when you are ready to upload your reading. */
+"TakeReading_StatusMessage_UserCancelled" = "Het lezen van het apparaat is geannuleerd door de gebruiker.  Probeer het opnieuw wanneer u klaar bent om de waarden te uploaden.";
+
+/*Please be sure your device is connected and in the proper mode. To initiate the reading, click the Start Upload button above. */
+"Default_UploadMessage" = "Zorg dat het apparaat is aangesloten en zich in de juiste modus bevindt.  Als je de waarde wilt initiëren, klik je hierboven op de knop Upload starten";
+
+/*Please fill in your First Name before continuing */
+"Registration_MissingFirstName_Message" = "Vul je voornaam in voordat je doorgaat.";
+
+/*"Please fill in your Last Name before continuing" */
+"Registration_MissingLastName_Message" = "Vul je achternaam in voordat je doorgaat.";
+
+/*"Please fill in your Username before continuing" */
+"Registration_MissingUserName_Message" = "Typ je gebruikersnaam voordat je doorgaat.";
+
+/*"Please fill in your Email before continuing" */
+"Registration_MissingEmail_Message" = "Vul je e-mailadres in voordat je doorgaat.";
+
+/*"Please fill in your Password before continuing" */
+"Registration_MissingPassword_Message" = "Typ het wachtwoord voordat je doorgaat.";
+
+/*"Registration could not be completed successfully.  Please try again later." */
+"Registration_UnexpectedError_Message" = "Registratie kan niet worden voltooid.  Probeer het later opnieuw.";
+
+/*"Please enter a valid email address." */
+"Registration_InvalidEmailAddress_Message" = "Voer een geldig e-mailadres in.";
+
+/*"Please be sure that the Password and Confirm Password fields match." */
+"Registration_PasswordMismatch_Message" = "Zorg dat de velden Wachtwoord en Bevestig wachtwoord overeenkomen.";
+
+/* M3 IT Blood Pressure Monitor (HEM-7131U-E) */
+"M3_BloodPressure_Monitor" = "M3 IT Blood Pressure Monitor (HEM-7131U-E)";
+
+/* M6 IT Blood Pressure Monitor (HEM-7322U-E) */
+"M6_BloodPressure_Monitor" = "M6 IT Blood Pressure Monitor (HEM-7322U-E)";
+
+/* M3 IT Blood Pressure Monitor (HEM-7131U-E) */
+"M3_BloodPressure_Monitor_Tag" = "HEM-7131U-E";
+
+/* M6 IT Blood Pressure Monitor (HEM-7322U-E) */
+"M6_BloodPressure_Monitor_Tag" = "HEM-7322U-E";
+
+/* Remember Me */
+"SettingsPage_RememberMe_Label" = "Remember Me";
+
+/* Remove User */
+"SettingsPage_RemoveUser_Label" = "Verwijder Gebruiker";
+
+/* Choose a device to upload data from */
+"DeviceSelect_ChooseLabel" = "Kies een apparaat om gegevens te uploaden";
+
+/* Forgot Password? */
+"Forgot Password" = "Wachtwoord vergeten?";
+
+/* Select the default user of the device */
+"UserSelection_SelectLabel" = "Selecteer de standaard gebruiker van het apparaat";
+
+/* User A */
+"UserSelection_UserA" = "Gebruiker A";
+
+/* User B */
+"UserSelection_UserB" = "Gebruiker B";
+
+/* Username */
+"LoginView_Username" = "Gebruikersnaam";
+
+/* Password */
+"LoginView_Password" = "Wachtwoord";
+
+/* Remember Me */
+"LoginView_RememberMe" = "Remember Me";
+
+/* Forgot Password? */
+"LoginView_ForgotPassword" = "Wachtwoord vergeten?";
+
+/* Username */
+"createUser_username" = "Gebruikersnaam";
+
+/* Last Name */
+"createUser_lastname" = "Achternaam";
+
+/* First Name */
+"createUser_firstname" = "Voornaam";
+
+/* Email */
+"createUser_email" = "Email";
+
+/* Password */
+"createUser_pword" = "Wachtwoord";
+
+/* Confirm Password */
+"createUser_confirm" = "Wachtwoord Bevestigen";
+
+/* Timezone */
+"createUser_timezone" = "Tijdzone";
+
+/* Country */
+"createUser_country" = "Land";
+
+/* Culture */
+"createUser_culture" = "Cultuur";
+
+/* Accept */
+"eulaAccept" = "Accepteren";
+
+/* Decline */
+"eulaDecline" = "Annuleren";
+
+/* sign in */
+"SIGN_IN" = "aanmelden";
+
+/* EULA Path */
+"EULA_path" = "EULA_Bi-LINK_DU.pdf";
+
+/* create user */
+"CreateUser" = "Account maken";
+
+
+/* Remember Me Label*/
+"Remember Me" = "Remember Me (DU)";
+
+/* Uregister device label*/
+"Unregister Device" = "Unregister Device (DU)";

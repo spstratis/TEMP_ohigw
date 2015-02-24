@@ -1,0 +1,172 @@
+/* 
+  Localizable.strings
+  Omron2
+
+  Created by S.Stratis on 4/2/14.
+  Copyright (c) 2014 Justin Helmick. All rights reserved.
+*/
+
+/* Please select User A or User B before continuing */
+"TakeReading_Message_NoUserSelected" = "Please select User A or User B before continuing (ro)";
+
+/* Some of the provided data was corrupt or in an unexpected format. Please ensure your data is not corrupt and upload again. If new data is added to the device that is not corrupt, good records will be loaded and corrupt records will be ignored. */
+"TakeReading_StatusMessage_CorruptData" = "Unele dintre datele furnizate au fost corupte sau în format neaşteptat.  Asiguraţi-vă că datele nu sunt corupte şi încărcaţi-le din nou.  Dacă pe dispozitiv sunt adăugate date care nu sunt corupte, înregistrările bune vor fi încărcate, iar cele corupte vor fi ignorate.";
+
+/* An error occurred while communicating with your device. Please remove the device, reconnect, ensure that any required cable is connected tightly and atempt the reading again. */
+"TakeReading_StatusMessage_DeviceError" = "A survenit o eroare în timpul comunicării cu dispozitivul.  Decuplaţi dispozitivul, reconectaţi-l şi asiguraţi-vă că toate cablurile necesare sunt conectate şi încercaţi să citiţi din nou.";
+
+/* The device could not be found. Please be sure that it is connected properly with any necessary cables secured and attempt the reading again. */
+"TakeReading_StatusMessage_DeviceNotFound" = "Dispozitivul nu a putut fi găsit.  Asiguraţi-vă că acesta este conectat corespunzător, cu toate cablurile fixate, şi încercaţi să citiţi din nou.";
+
+/* An error occurred. An invalid device was identified in the upload token. Please retry your upload at a later time. */
+"TakeReading_StatusMessage_IncorrectDeviceType" = "A survenit o eroare.  A fost identificat un dispozitiv nevalid în simbolul de încărcare.  Reîncercaţi încărcarea mai târziu.";
+
+/* Your readings could not be uploaded. All measurements on the device were found to have a date or time in the future. Please check your device settings. */
+"TakeReading_StatusMessage_InvalidItemsFutureDated" = "Citirile dvs. nu au putut fi încărcate.  Toate măsurătorile găsite pe dispozitiv au o dată sau o oră în viitor.  Verificaţi setările dispozitivului.";
+
+/* An error occurred. An invalid upload token was processed. Please retry your upload at a later time. */
+"TakeReading_StatusMessage_InvalidUploadToken" = "A survenit o eroare.  S-a procesat un simbol de încărcare nevalid. Reîncercaţi încărcarea mai târziu.";
+
+/* The Upload Service is not currently available. Please try again in a few minutes. If you continue experiencing issues, please submit a support ticket. */
+"TakeReading_StatusMessage_ServiceException" = "Serviciul de încărcare nu este disponibil momentan.  Reîncercaţi în câteva minute.  Dacă problemele persistă, trimiteţi o solicitare de asistenţă.";
+
+/* Your information was successfully uploaded. */
+"TakeReading_StatusMessage_Success" = "Informaţiile dvs. au fost încărcate cu succes.  Număr elemente: [%d]";
+
+/* Your readings were successfully uploaded. However, there were no new readings to process. */
+"TakeReading_StatusMessage_SuccessNoNewItems" = "Citirile dvs. au fost încărcate cu succes.  Totuşi, nu există citiri noi de procesat.";
+
+/* Your readings were successfully uploaded. However, there were some invalid items. */
+"TakeReading_StatusMessage_SuccessSomeInvalidItems" = "Citirile dvs. au fost încărcate cu succes.  Totuşi, au existat elemente nevalide.  Număr elemente: [%d]";
+
+/* Your readings were successfully uploaded. However, there were some invalid measurements with dates or times that are in the future. Measurements with dates in the future are rejected - please check your device. */
+"TakeReading_StatusMessage_SuccessSomeInvalidItemsFutureDated" = "Citirile dvs. au fost încărcate cu succes.  Totuşi, au existat anumite măsurători nevalide cu date sau ora aflate în viitor.  Măsurătorile cu datele în viitor sunt respinse - verificaţi dispozitivul.  Număr elemente: [%d]";
+
+/* An unexpected error occurred while loading your device's driver. If this issue continues, please submit a support ticket. */
+"TakeReading_StatusMessage_UnableToLoadDeviceDriver" = "A survenit o eroare neaşteptată în timpul încărcării driverului dispozitivului dvs.  Dacă problema persistă, trimiteţi o solicitare de asistenţă.";
+
+/* An unexpected error occurred while communicating with your device. Please remove the device, recconect, ensure that any required cable is connected tightly and attempt the reading again. */
+"TakeReading_StatusMessage_UnexpectedError" = "A survenit o eroare neaşteptată în timpul comunicării cu dispozitivul.  Decuplaţi dispozitivul, reconectaţi-l şi asiguraţi-vă că toate cablurile necesare sunt conectate şi încercaţi să citiţi din nou.";
+
+/* The device reading was cancelled by the user. Please retry when you are ready to upload your reading. */
+"TakeReading_StatusMessage_UserCancelled" = "Citirea dispozitivului a fost anulată de către utilizator.  Reîncercaţi când efectuaţi citirea, pentru a o încărca.";
+
+/*Please be sure your device is connected and in the proper mode. To initiate the reading, click the Start Upload button above. */
+"Default_UploadMessage" = "Asiguraţi-vă că dispozitivul este conectat în mod corespunzător.  Pentru a iniţia citirea, faceţi clic pe butonul Pornire încărcare de sus.";
+
+/*Please fill in your First Name before continuing */
+"Registration_MissingFirstName_Message" = "Introduceţi prenumele înainte de a continua.s    ";
+
+/*"Please fill in your Last Name before continuing" */
+"Registration_MissingLastName_Message" = "Introduceţi numele înainte de a continua.";
+
+/*"Please fill in your Username before continuing" */
+"Registration_MissingUserName_Message" = "Introduceţi numele de utilizator înainte de a continua.";
+
+/*"Please fill in your Email before continuing" */
+"Registration_MissingEmail_Message" = "Introduceţi adresa de e-mail înainte de a continua.";
+
+/*"Please fill in your Password before continuing" */
+"Registration_MissingPassword_Message" = "Introduceţi parola înainte de a continua.";
+
+/*"Registration could not be completed successfully.  Please try again later." */
+"Registration_UnexpectedError_Message" = "Înregistrarea nu a putut fi realizată cu succes.  Reîncercaţi mai târziu.";
+
+/*"Please enter a valid email address." */
+"Registration_InvalidEmailAddress_Message" = "Introduceţi adresa de e-mail înainte de a continua.";
+
+/*"Please be sure that the Password and Confirm Password fields match." */
+"Registration_PasswordMismatch_Message" = "Asiguraţi-vă că datele introduse în câmpurile Parolă şi Confirmare parolă coincid.";
+
+/* M3 IT Blood Pressure Monitor (HEM-7131U-E) */
+"M3_BloodPressure_Monitor" = "M3 IT Blood Pressure Monitor (HEM-7131U-E)";
+
+/* M6 IT Blood Pressure Monitor (HEM-7322U-E) */
+"M6_BloodPressure_Monitor" = "M6 IT Blood Pressure Monitor (HEM-7322U-E)";
+
+/* M3 IT Blood Pressure Monitor (HEM-7131U-E) */
+"M3_BloodPressure_Monitor_Tag" = "HEM-7131U-E";
+
+/* M6 IT Blood Pressure Monitor (HEM-7322U-E) */
+"M6_BloodPressure_Monitor_Tag" = "HEM-7322U-E";
+
+/* Remember Me */
+"SettingsPage_RememberMe_Label" = "Ține-mă minte";
+
+/* Remove User */
+"SettingsPage_RemoveUser_Label" = "Scoateți utilizator";
+
+/* Choose a device to upload data from */
+"DeviceSelect_ChooseLabel" = "Alegeți un dispozitiv pentru a încărca datele de la";
+
+/* Forgot Password? */
+"Forgot Password" = "Ai uitat parola?";
+
+/* Select the default user of the device */
+"UserSelection_SelectLabel" = "Selectați utilizatorul implicit al dispozitivului";
+
+/* User A */
+"UserSelection_UserA" = "Utilizator A";
+
+/* User B */
+"UserSelection_UserB" = "Utilizator B";
+
+/* Username */
+"LoginView_Username" = "Nume de utilizator";
+
+/* Password */
+"LoginView_Password" = "Parolă";
+
+/* Remember Me */
+"LoginView_RememberMe" = "Ține-mă minte";
+
+/* Forgot Password? */
+"LoginView_ForgotPassword" = "Ai uitat parola?";
+
+/* Username */
+"createUser_username" = "Nume de utilizator";
+
+/* Last Name */
+"createUser_lastname" = "Nume";
+
+/* First Name */
+"createUser_firstname" = "Prenume";
+
+/* Email */
+"createUser_email" = "Email";
+
+/* Password */
+"createUser_pword" = "Parolă";
+
+/* Confirm Password */
+"createUser_confirm" = "Confirmați Parola";
+
+/* Timezone */
+"createUser_timezone" = "Fus orar";
+
+/* Country */
+"createUser_country" = "Tară";
+
+/* Culture */
+"createUser_culture" = "Cultură";
+
+/* Accept */
+"eulaAccept" = "Acceptare";
+
+/* Decline */
+"eulaDecline" = "Anulare";
+
+/* sign in */
+"SIGN_IN" = "conectare";
+
+/* EULA Path */
+"EULA_path" = "EULA_Bi-LINK_RO.pdf";
+
+/* create user */
+"CreateUser" = "Creare cont";
+
+/* Remember Me Label*/
+"Remember Me" = "Remember Me (RO)";
+
+/* Uregister device label*/
+"Unregister Device" = "Unregister Device (RO)";

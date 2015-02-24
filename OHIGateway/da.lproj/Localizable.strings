@@ -1,0 +1,172 @@
+/* 
+  Localizable.strings
+  Omron2
+
+  Created by S.Stratis on 4/2/14.
+  Copyright (c) 2014 Justin Helmick. All rights reserved.
+*/
+
+/* Please select User A or User B before continuing */
+"TakeReading_Message_NoUserSelected" = "Please select User A or User B before continuing (da)";
+
+/* Some of the provided data was corrupt or in an unexpected format. Please ensure your data is not corrupt and upload again. If new data is added to the device that is not corrupt, good records will be loaded and corrupt records will be ignored. */
+"TakeReading_StatusMessage_CorruptData" = "Nogle af de angivne data var ødelagte eller i et uventet format.  Kontroller, at dine data ikke er ødelagte, og overfør igen.  Hvis der er føjet nye data til enheden, som ikke er ødelagte, vil de gode poster blive indlæst, og ødelagte poster ignoreres.";
+
+/* An error occurred while communicating with your device. Please remove the device, reconnect, ensure that any required cable is connected tightly and atempt the reading again. */
+"TakeReading_StatusMessage_DeviceError" = "Der opstod en fejl under kommunikation med enheden.  Fjern enheden, tilslut den igen, kontroller at et eventuelt nødvendigt kabel er sat korrekt i, og forsøg aflæsningen igen.";
+
+/* The device could not be found. Please be sure that it is connected properly with any necessary cables secured and attempt the reading again. */
+"TakeReading_StatusMessage_DeviceNotFound" = "Enheden blev ikke fundet.  Kontroller, at den er tilsluttet korrekt med eventuelle, nødvendige kabler, og forsøg aflæsningen igen.";
+
+/* An error occurred. An invalid device was identified in the upload token. Please retry your upload at a later time. */
+"TakeReading_StatusMessage_IncorrectDeviceType" = "Der opstod en fejl.  En ugyldig enhed blev identificeret i overførsels-token.  Prøv at overføre igen på et senere tidspunkt.";
+
+/* Your readings could not be uploaded. All measurements on the device were found to have a date or time in the future. Please check your device settings. */
+"TakeReading_StatusMessage_InvalidItemsFutureDated" = "Dine aflæsninger kunne ikke overføres.  Alle målinger på enheden har en dato eller et klokkeslæt i fremtiden.  Kontroller indstillingerne på din enhed.";
+
+/* An error occurred. An invalid upload token was processed. Please retry your upload at a later time. */
+"TakeReading_StatusMessage_InvalidUploadToken" = "Der opstod en fejl.  En ugyldig overførsels-token blev behandlet. Prøv at overføre igen på et senere tidspunkt.";
+
+/* The Upload Service is not currently available. Please try again in a few minutes. If you continue experiencing issues, please submit a support ticket. */
+"TakeReading_StatusMessage_ServiceException" = "Overførselstjenesten er ikke tilgængelig i øjeblikket.  Prøv igen om et par minutter.  Send en supportanmodning, hvis du fortsat har problemer.";
+
+/* Your information was successfully uploaded. */
+"TakeReading_StatusMessage_Success" = "Overførslen af dine oplysninger blev gennemført.  Posttæller: [%d]";
+
+/* Your readings were successfully uploaded. However, there were no new readings to process. */
+"TakeReading_StatusMessage_SuccessNoNewItems" = "Dine aflæsninger blev overført.  Men der er ingen nye aflæsninger til behandling.";
+
+/* Your readings were successfully uploaded. However, there were some invalid items. */
+"TakeReading_StatusMessage_SuccessSomeInvalidItems" = "Dine aflæsninger blev overført.  Men der var nogle ugyldige poster.  Posttæller: [%d]";
+
+/* Your readings were successfully uploaded. However, there were some invalid measurements with dates or times that are in the future. Measurements with dates in the future are rejected - please check your device. */
+"TakeReading_StatusMessage_SuccessSomeInvalidItemsFutureDated" = "Dine aflæsninger blev overført.  Men der var nogle ugyldige poster.  Posttæller: [%d]";
+
+/* An unexpected error occurred while loading your device's driver. If this issue continues, please submit a support ticket. */
+"TakeReading_StatusMessage_UnableToLoadDeviceDriver" = "Der opstod en uventet fejl under indlæsning af enhedens driver.  Send en supportanmodning, hvis problemet varer ved.";
+
+/* An unexpected error occurred while communicating with your device. Please remove the device, recconect, ensure that any required cable is connected tightly and attempt the reading again. */
+"TakeReading_StatusMessage_UnexpectedError" = "Der opstod en uventet fejl under kommunikation med enheden.  Fjern enheden, tilslut den igen, kontroller at et eventuelt nødvendigt kabel er sat korrekt i, og forsøg aflæsningen igen.";
+
+/* The device reading was cancelled by the user. Please retry when you are ready to upload your reading. */
+"TakeReading_StatusMessage_UserCancelled" = "Enhedsaflæsningen blev annulleret af brugeren.  Prøv igen, når du er klar til at overføre din aflæsning.";
+
+/*Please be sure your device is connected and in the proper mode. To initiate the reading, click the Start Upload button above. */
+"Default_UploadMessage" = "Kontroller, at din enhed er tilsluttet og i den korrekte tilstand.  Klik på knappen Start overførsel herover for at starte aflæsningen.";
+
+/*Please fill in your First Name before continuing */
+"Registration_MissingFirstName_Message" = "Indtast dit fornavn, før du fortsætter.";
+
+/*"Please fill in your Last Name before continuing" */
+"Registration_MissingLastName_Message" = "Indtast dit efternavn, før du fortsætter.";
+
+/*"Please fill in your Username before continuing" */
+"Registration_MissingUserName_Message" = "Indtast dit brugernavn, før du fortsætter.";
+
+/*"Please fill in your Email before continuing" */
+"Registration_MissingEmail_Message" = "Indtast din e-mail, før du fortsætter.";
+
+/*"Please fill in your Password before continuing" */
+"Registration_MissingPassword_Message" = "Indtast din adgangskode, før du fortsætter.";
+
+/*"Registration could not be completed successfully.  Please try again later." */
+"Registration_UnexpectedError_Message" = "Registrering kunne ikke gennemføres.  Prøv igen senere.";
+
+/*"Please enter a valid email address." */
+"Registration_InvalidEmailAddress_Message" = "Indtast en gyldig e-mailadresse.";
+
+/*"Please be sure that the Password and Confirm Password fields match." */
+"Registration_PasswordMismatch_Message" = "Kontroller, at felterne Adgangskode og Bekræft adgangskode stemmer overens.";
+
+/* M3 IT Blood Pressure Monitor (HEM-7131U-E) */
+"M3_BloodPressure_Monitor" = "M3 IT Blood Pressure Monitor (HEM-7131U-E)";
+
+/* M6 IT Blood Pressure Monitor (HEM-7322U-E) */
+"M6_BloodPressure_Monitor" = "M6 IT Blood Pressure Monitor (HEM-7322U-E)";
+
+/* M3 IT Blood Pressure Monitor (HEM-7131U-E) */
+"M3_BloodPressure_Monitor_Tag" = "HEM-7131U-E";
+
+/* M6 IT Blood Pressure Monitor (HEM-7322U-E) */
+"M6_BloodPressure_Monitor_Tag" = "HEM-7322U-E";
+
+/* Remember Me */
+"SettingsPage_RememberMe_Label" = "Husk Mig";
+
+/* Remove User */
+"SettingsPage_RemoveUser_Label" = "Fjern Bruger";
+
+/* Choose a device to upload data from */
+"DeviceSelect_ChooseLabel" = "Vælg en enhed at overføre data fra";
+
+/* Forgot Password? */
+"Forgot Password" = "Glemt adgangskode?";
+
+/* Select the default user of the device */
+"UserSelection_SelectLabel" = "Vælg standard brugeren af ​​apparatet";
+
+/* User A */
+"UserSelection_UserA" = "Bruger A";
+
+/* User B */
+"UserSelection_UserB" = "Bruger B";
+
+/* Username */
+"LoginView_Username" = "Brugernavn";
+
+/* Password */
+"LoginView_Password" = "Adgangskode";
+
+/* Remember Me */
+"LoginView_RememberMe" = "Husk Mig";
+
+/* Forgot Password? */
+"LoginView_ForgotPassword" = "Glemt kodeord?";
+
+/* Username */
+"createUser_username" = "Brugernavn";
+
+/* Last Name */
+"createUser_lastname" = "Efternavn";
+
+/* First Name */
+"createUser_firstname" = "Fornavn";
+
+/* Email */
+"createUser_email" = "Email";
+
+/* Password */
+"createUser_pword" = "Adgangskode";
+
+/* Confirm Password */
+"createUser_confirm" = "Bekræft Apasdgangskode";
+
+/* Timezone */
+"createUser_timezone" = "tidszone";
+
+/* Country */
+"createUser_country" = "Land";
+
+/* Culture */
+"createUser_culture" = "Kultur";
+
+/* Accept */
+"eulaAccept" = "Accepter";
+
+/* Decline */
+"eulaDecline" = "Annuller";
+
+/* sign in */
+"SIGN_IN" = "log på";
+
+/* EULA Path */
+"EULA_path" = "EULA_Bi-LINK_DA.pdf";
+
+/* create user */
+"CreateUser" = "Opret konto";
+
+/* Remember Me Label*/
+"Remember Me" = "Remember Me (DA)";
+
+/* Uregister device label*/
+"Unregister Device" = "Unregister Device (DA)";

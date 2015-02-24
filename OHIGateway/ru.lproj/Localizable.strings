@@ -1,0 +1,172 @@
+/* 
+  Localizable.strings
+  Omron2
+
+  Created by S.Stratis on 4/2/14.
+  Copyright (c) 2014 Justin Helmick. All rights reserved.
+*/
+
+/* Please select User A or User B before continuing */
+"TakeReading_Message_NoUserSelected" = "Пожалуйста, выберите пользователя А или пользователя B, прежде чем продолжить";
+
+/* Some of the provided data was corrupt or in an unexpected format. Please ensure your data is not corrupt and upload again. If new data is added to the device that is not corrupt, good records will be loaded and corrupt records will be ignored. */
+"TakeReading_StatusMessage_CorruptData" = "Некоторые из загруженных данных оказались поврежденными или имеют неизвестный формат.  Убедитесь, что данные не повреждены, и еще раз выполните передачу.  Если добавить на устройство новые неповрежденные данные, то неповрежденные данные будут загружены, а поврежденные пропущены.";
+
+/* An error occurred while communicating with your device. Please remove the device, reconnect, ensure that any required cable is connected tightly and atempt the reading again. */
+"TakeReading_StatusMessage_DeviceError" = "При подключении устройства произошла ошибка.  Отключите устройство, повторно его подключите, проверьте правильность подключения кабеля и повторите попытку считывания данных.";
+
+/* The device could not be found. Please be sure that it is connected properly with any necessary cables secured and attempt the reading again. */
+"TakeReading_StatusMessage_DeviceNotFound" = "Не удалось найти устройство.  Убедитесь, что оно правильно подключено с использованием правильных кабелей, и повторите попытку считывания данных.";
+
+/* An error occurred. An invalid device was identified in the upload token. Please retry your upload at a later time. */
+"TakeReading_StatusMessage_IncorrectDeviceType" = "Произошла ошибка.  В маркере передачи данных указано недопустимое устройство.  Повторите передачу данных позднее.";
+
+/* Your readings could not be uploaded. All measurements on the device were found to have a date or time in the future. Please check your device settings. */
+"TakeReading_StatusMessage_InvalidItemsFutureDated" = "Your readings could not be uploaded.  All measurements on the device were found to have a date or time in the future.  Please check your device settings.";
+
+/* An error occurred. An invalid upload token was processed. Please retry your upload at a later time. */
+"TakeReading_StatusMessage_InvalidUploadToken" = "Произошла ошибка.  Обработан недопустимый маркер передачи данных. Повторите передачу данных позднее.";
+
+/* The Upload Service is not currently available. Please try again in a few minutes. If you continue experiencing issues, please submit a support ticket. */
+"TakeReading_StatusMessage_ServiceException" = "В настоящее время служба передачи данных недоступна.  Повторите попытку через несколько минут.  При повторении ошибки обратитесь в службу поддержки.";
+
+/* Your information was successfully uploaded. */
+"TakeReading_StatusMessage_Success" = "Данные успешно загружены.  Число элементов: [%d]";
+
+/* Your readings were successfully uploaded. However, there were no new readings to process. */
+"TakeReading_StatusMessage_SuccessNoNewItems" = "Данные успешно загружены.  Однако новые даныне для обработки отсутствуют.";
+
+/* Your readings were successfully uploaded. However, there were some invalid items. */
+"TakeReading_StatusMessage_SuccessSomeInvalidItems" = "Данные успешно загружены.  Однако некоторые элементы недопустимы.  Число элементов: [%d]";
+
+/* Your readings were successfully uploaded. However, there were some invalid measurements with dates or times that are in the future. Measurements with dates in the future are rejected - please check your device. */
+"TakeReading_StatusMessage_SuccessSomeInvalidItemsFutureDated" = "Your readings were successfully uploaded.  However, there were some invalid measurements with dates or times that are in the future.  Measurements with dates in the future are rejected - please check your device.  Item Count: [%d]";
+
+/* An unexpected error occurred while loading your device's driver. If this issue continues, please submit a support ticket. */
+"TakeReading_StatusMessage_UnableToLoadDeviceDriver" = "При загрузке драйвера устройства произошла неожиданная ошибка.  При повторении ошибки обратитесь в службу поддержки.";
+
+/* An unexpected error occurred while communicating with your device. Please remove the device, recconect, ensure that any required cable is connected tightly and attempt the reading again. */
+"TakeReading_StatusMessage_UnexpectedError" = "При подключении устройства произошла неожиданная ошибка.  Удалите устройство, повторно его подключите, проверьте правильность подключения кабеля и повторите попытку считывания данных.";
+
+/* The device reading was cancelled by the user. Please retry when you are ready to upload your reading. */
+"TakeReading_StatusMessage_UserCancelled" = "Загрузка данных с устройства отменено пользователем.  Повторите попытку, когда вы будете готовы к загрузке данных.";
+
+/*Please be sure your device is connected and in the proper mode. To initiate the reading, click the Start Upload button above. */
+"Default_UploadMessage" = "Убедитесь, что устройство подключено и переведено в соответствующий режим.  Чтобы начать загрузку данных, нажмите кнопку Начать загрузку данных выше.";
+
+/*Please fill in your First Name before continuing */
+"Registration_MissingFirstName_Message" = "Для продолжения введите ваше имя.";
+
+/*"Please fill in your Last Name before continuing" */
+"Registration_MissingLastName_Message" = "Для продолжения введите вашу фамилию.";
+
+/*"Please fill in your Username before continuing" */
+"Registration_MissingUserName_Message" = "Для продолжения введите имя пользователя.";
+
+/*"Please fill in your Email before continuing" */
+"Registration_MissingEmail_Message" = "Для продолжения введите адрес электронной почты.";
+
+/*"Please fill in your Password before continuing" */
+"Registration_MissingPassword_Message" = "Для продолжения введите пароль.";
+
+/*"Registration could not be completed successfully.  Please try again later." */
+"Registration_UnexpectedError_Message" = "Во время регистрации произошла неожиданная ошибка.  Повторите попытку позднее.";
+
+/*"Please enter a valid email address." */
+"Registration_InvalidEmailAddress_Message" = "Введите допустимый адрес электронной почты.";
+
+/*"Please be sure that the Password and Confirm Password fields match." */
+"Registration_PasswordMismatch_Message" = "Убедитесь, что пароль и подтверждение пароля совпадают.";
+
+/* M3 IT Blood Pressure Monitor (HEM-7131U-E) */
+"M3_BloodPressure_Monitor" = "M3 IT Blood Pressure Monitor (HEM-7131U-E)";
+
+/* M6 IT Blood Pressure Monitor (HEM-7322U-E) */
+"M6_BloodPressure_Monitor" = "M6 IT Blood Pressure Monitor (HEM-7322U-E)";
+
+/* M3 IT Blood Pressure Monitor (HEM-7131U-E) */
+"M3_BloodPressure_Monitor_Tag" = "HEM-7131U-E";
+
+/* M6 IT Blood Pressure Monitor (HEM-7322U-E) */
+"M6_BloodPressure_Monitor_Tag" = "HEM-7322U-E";
+
+/* Remember Me */
+"SettingsPage_RememberMe_Label" = "Запомни меня";
+
+/* Remove User */
+"SettingsPage_RemoveUser_Label" = "Удалить пользователя";
+
+/* Choose a device to upload data from */
+"DeviceSelect_ChooseLabel" = "Выберите устройство для загрузки данных из";
+
+/* Forgot Password? */
+"Forgot Password" = "Забыли пароль?";
+
+/* Select the default user of the device */
+"UserSelection_SelectLabel" = "Выберите пользователя по умолчанию устройства";
+
+/* User A */
+"UserSelection_UserA" = "Пользователь 1 (A)";
+
+/* User B */
+"UserSelection_UserB" = "Пользователь 2 (B)";
+
+/* Username */
+"LoginView_Username" = "имя пользователя";
+
+/* Password */
+"LoginView_Password" = "пароль";
+
+/* Remember Me */
+"LoginView_RememberMe" = "Запомни меня";
+
+/* Forgot Password? */
+"LoginView_ForgotPassword" = "забыли пароль?";
+
+/* Username */
+"createUser_username" = "имя пользователя";
+
+/* Last Name */
+"createUser_lastname" = "фамилия";
+
+/* First Name */
+"createUser_firstname" = "имя";
+
+/* Email */
+"createUser_email" = "по электронной почте";
+
+/* Password */
+"createUser_pword" = "пароль";
+
+/* Confirm Password */
+"createUser_confirm" = "подтвердите Пароль";
+
+/* Timezone */
+"createUser_timezone" = "часовой пояс";
+
+/* Country */
+"createUser_country" = "страна";
+
+/* Culture */
+"createUser_culture" = "культура";
+
+/* Accept */
+"eulaAccept" = "принять";
+
+/* Decline */
+"eulaDecline" = "отмена";
+
+/* sign in */
+"SIGN_IN" = "регистрация";
+
+/* EULA Path */
+"EULA_path" = "EULA_Bi-LINK_RU.pdf";
+
+/* create user */
+"CreateUser" = "Создать учетную запись";
+
+/* Remember Me Label*/
+"Remember Me" = "Remember Me";
+
+/* Uregister device label*/
+"Unregister Device" = "Unregister Device";

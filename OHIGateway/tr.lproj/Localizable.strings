@@ -1,0 +1,172 @@
+/* 
+  Localizable.strings
+  Omron2
+
+  Created by S.Stratis on 4/2/14.
+  Copyright (c) 2014 Justin Helmick. All rights reserved.
+*/
+
+/* Please select User A or User B before continuing */
+"TakeReading_Message_NoUserSelected" = "Please select User A or User B before continuing (tr)";
+
+/* Some of the provided data was corrupt or in an unexpected format. Please ensure your data is not corrupt and upload again. If new data is added to the device that is not corrupt, good records will be loaded and corrupt records will be ignored. */
+"TakeReading_StatusMessage_CorruptData" = "Sağlanan verilerin bazıları bozuk veya bilinmeyen bir formata sahip.  Lütfen verilerin bozuk olmadığından emin olun ve tekrar yükleyin.  Cihaza bozuk olmayan yeni bir veri eklendiğinde, iyi kayıtlar yüklenir ve bozuk olan kayıtlar yok sayılır.";
+
+/* An error occurred while communicating with your device. Please remove the device, reconnect, ensure that any required cable is connected tightly and atempt the reading again. */
+"TakeReading_StatusMessage_DeviceError" = "Cihazınızın iletişimi ile ilgili bir hata oluştu.  Lütfen cihazın bağlantısını kesin, cihazı tekrar bağlayın ve tüm kabloların düzgün bir şekilde bağlandığından emin olduktan sonra tekrar okumayı deneyin.";
+
+/* The device could not be found. Please be sure that it is connected properly with any necessary cables secured and attempt the reading again. */
+"TakeReading_StatusMessage_DeviceNotFound" = "Cihaz bulunamadı.  Tüm kabloların düzgün bir şekilde bağlı olduğundan emin olun ve tekrar okumayı deneyin.";
+
+/* An error occurred. An invalid device was identified in the upload token. Please retry your upload at a later time. */
+"TakeReading_StatusMessage_IncorrectDeviceType" = "Bir hata oluştu.  Yüklenen bilette geçersiz bir cihaz tespit edildi.  Lütfen daha sonra tekrar yüklemeye çalışın.";
+
+/* Your readings could not be uploaded. All measurements on the device were found to have a date or time in the future. Please check your device settings. */
+"TakeReading_StatusMessage_InvalidItemsFutureDated" = "Okumalarınız yüklenemedi.  Cihazda bulunan tüm ölçümlerin gelecekteki bir tarih ve saate sahip olduğu tespit edildi.  Lütfen cihaz ayarlarınızı kontrol edin.";
+
+/* An error occurred. An invalid upload token was processed. Please retry your upload at a later time. */
+"TakeReading_StatusMessage_InvalidUploadToken" = "Bir hata oluştu.  Geçersiz bir yüklenen bilet işlendi. Lütfen daha sonra tekrar yüklemeye çalışın.";
+
+/* The Upload Service is not currently available. Please try again in a few minutes. If you continue experiencing issues, please submit a support ticket. */
+"TakeReading_StatusMessage_ServiceException" = "Yükleme Hizmeti şu anda kullanılabilir değil.  Lütfen birkaç dakika sonra tekrar deneyin.  Sorunlar yaşamaya devam ediyorsanız lütfen bir yardım bileti gönderin.";
+
+/* Your information was successfully uploaded. */
+"TakeReading_StatusMessage_Success" = "Bilgileriniz başarılı bir şekilde yüklendi.  Öğe Sayacı: [%d]";
+
+/* Your readings were successfully uploaded. However, there were no new readings to process. */
+"TakeReading_StatusMessage_SuccessNoNewItems" = "Okumalarınız başarılı bir şekilde yüklendi.  Ancak, işlenecek yeni okumalar yoktu.";
+
+/* Your readings were successfully uploaded. However, there were some invalid items. */
+"TakeReading_StatusMessage_SuccessSomeInvalidItems" = "Okumalarınız başarılı bir şekilde yüklendi.  Ancak, geçersiz bir kaç öğe vardı.  Öğe Sayacı: [%d]";
+
+/* Your readings were successfully uploaded. However, there were some invalid measurements with dates or times that are in the future. Measurements with dates in the future are rejected - please check your device. */
+"TakeReading_StatusMessage_SuccessSomeInvalidItemsFutureDated" = "Okumalarınız başarılı bir şekilde yüklendi.  Ancak, geleceğe yönelik tarih ve saat içeren bazı geçersiz ölçümler vardı.  Geleceğe yönelik tarihler içeren ölçümler iptal edilir - lütfen cihazınızı kontrol edin.  Öğe Sayacı: [%d]";
+
+/* An unexpected error occurred while loading your device's driver. If this issue continues, please submit a support ticket. */
+"TakeReading_StatusMessage_UnableToLoadDeviceDriver" = "Cihazınızın sürücüsünü yüklerken beklenmeyen bir hata oluştu.  Bu sorunun devam etmesi durumunda bir yardım bileti gönderin.";
+
+/* An unexpected error occurred while communicating with your device. Please remove the device, recconect, ensure that any required cable is connected tightly and attempt the reading again. */
+"TakeReading_StatusMessage_UnexpectedError" = "Cihazınızın iletişimi ile ilgili beklenmeyen bir hata oluştu.  Lütfen cihazın bağlantısını kesin, cihazı tekrar bağlayın ve tüm kabloların düzgün bir şekilde bağlandığından emin olduktan sonra tekrar okumayı deneyin.";
+
+/* The device reading was cancelled by the user. Please retry when you are ready to upload your reading. */
+"TakeReading_StatusMessage_UserCancelled" = "Cihaz okuması kullanıcı tarafından iptal edildi.  Okumanızı yüklemeye çalışırken okumanız durumunda lütfen tekrar deneyin.";
+
+/*Please be sure your device is connected and in the proper mode. To initiate the reading, click the Start Upload button above. */
+"Default_UploadMessage" = "Lütfen cihazınızın bağlı ve doğru modda olduğundan emin olun.  Okumaya başlamak için yukarıda bulunan Yüklemeye Başla düğmesine tıklayın.";
+
+/*Please fill in your First Name before continuing */
+"Registration_MissingFirstName_Message" = "Devam etmeden önce lütfen Adınızı girin.";
+
+/*"Please fill in your Last Name before continuing" */
+"Registration_MissingLastName_Message" = "Devam etmeden önce lütfen Soyadınızı girin.";
+
+/*"Please fill in your Username before continuing" */
+"Registration_MissingUserName_Message" = "Devam etmeden önce lütfen kullanıcı adınızı girin.";
+
+/*"Please fill in your Email before continuing" */
+"Registration_MissingEmail_Message" = "Devam etmeden önce lütfen e-postanızı girin.";
+
+/*"Please fill in your Password before continuing" */
+"Registration_MissingPassword_Message" = "Devam etmeden önce lütfen parolanızı girin.";
+
+/*"Registration could not be completed successfully.  Please try again later." */
+"Registration_UnexpectedError_Message" = "Kayıt işlemi başarılı bir şekilde tamamlanamadı.  Lütfen daha sonra tekrar deneyin.";
+
+/*"Please enter a valid email address." */
+"Registration_InvalidEmailAddress_Message" = "Lütfen geçerli bir e-posta adresi girin.";
+
+/*"Please be sure that the Password and Confirm Password fields match." */
+"Registration_PasswordMismatch_Message" = "Parola ve Parola Doğrulama alanlarının eşleştiğinden emin olun.";
+
+/* M3 IT Blood Pressure Monitor (HEM-7131U-E) */
+"M3_BloodPressure_Monitor" = "M3 IT Blood Pressure Monitor (HEM-7131U-E)";
+
+/* M6 IT Blood Pressure Monitor (HEM-7322U-E) */
+"M6_BloodPressure_Monitor" = "M6 IT Blood Pressure Monitor (HEM-7322U-E)";
+
+/* M3 IT Blood Pressure Monitor (HEM-7131U-E) */
+"M3_BloodPressure_Monitor_Tag" = "HEM-7131U-E";
+
+/* M6 IT Blood Pressure Monitor (HEM-7322U-E) */
+"M6_BloodPressure_Monitor_Tag" = "HEM-7322U-E";
+
+/* Remember Me */
+"SettingsPage_RememberMe_Label" = "Beni hatırla";
+
+/* Remove User */
+"SettingsPage_RemoveUser_Label" = "Kullanıcı Kaldır";
+
+/* Choose a device to upload data from */
+"DeviceSelect_ChooseLabel" = "Veri yüklemek için bir cihaz seçin";
+
+/* Forgot Password? */
+"Forgot Password" = "Parolanızı mı unuttunuz?";
+
+/* Select the default user of the device */
+"UserSelection_SelectLabel" = "Cihazınvarsayılan kullanıcıyı seçin";
+
+/* User A */
+"UserSelection_UserA" = "Kullanıcı A";
+
+/* User B */
+"UserSelection_UserB" = "Kullanıcı B";
+
+/* Username */
+"LoginView_Username" = "Kullanıcı adı";
+
+/* Password */
+"LoginView_Password" = "şifre";
+
+/* Remember Me */
+"LoginView_RememberMe" = "Beni hatırla";
+
+/* Forgot Password? */
+"LoginView_ForgotPassword" = "Sifremi unuttum?";
+
+/* Username */
+"createUser_username" = "Kullanıcı adı";
+
+/* Last Name */
+"createUser_lastname" = "Soyadı";
+
+/* First Name */
+"createUser_firstname" = "Isim";
+
+/* Email */
+"createUser_email" = "E-posta";
+
+/* Password */
+"createUser_pword" = "Sifre";
+
+/* Confirm Password */
+"createUser_confirm" = "Sifreyi Onayla";
+
+/* Timezone */
+"createUser_timezone" = "Zaman Dilimi";
+
+/* Country */
+"createUser_country" = "ülke";
+
+/* Culture */
+"createUser_culture" = "kültür";
+
+/* Accept */
+"eulaAccept" = "kabul et";
+
+/* Decline */
+"eulaDecline" = "iptal et";
+
+/* sign in */
+"SIGN_IN" = "giriş yap";
+
+/* EULA Path */
+"EULA_path" = "EULA_Bi-LINK_TR.pdf";
+
+/* create user */
+"CreateUser" = "Hesap Oluştur";
+
+/* Remember Me Label*/
+"Remember Me" = "Remember Me (DU)";
+
+/* Uregister device label*/
+"Unregister Device" = "Unregister Device (DU)";

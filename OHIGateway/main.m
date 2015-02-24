@@ -1,13 +1,14 @@
 //
 //  main.m
-//  OHIGateway
+//  Omron2
 //
-//  Created by justin helmick on 2/18/15.
-//  Copyright (c) 2015 justin helmick. All rights reserved.
+//  Created by Justin Helmick on 11/1/13.
+//  Copyright (c) 2013 Justin Helmick. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
 
-int main(int argc, const char * argv[]) {
-    return NSApplicationMain(argc, argv);
+int main(int argc, char *argv[])
+{
+    return NSApplicationMain(argc, (const char **)argv);
 }

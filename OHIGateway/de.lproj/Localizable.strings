@@ -1,0 +1,166 @@
+/* Please select User A or User B before continuing */
+"TakeReading_Message_NoUserSelected" = "Bitte wählen Sie Benutzer A Benutzer B oder vor dem Fortfahren";
+
+/* Some of the provided data was corrupt or in an unexpected format. Please ensure your data is not corrupt and upload again. If new data is added to the device that is not corrupt, good records will be loaded and corrupt records will be ignored. */
+"TakeReading_StatusMessage_CorruptData" = "Einige der bereitgestellten Daten waren beschädigt oder hatten ein unerwartetes Format.  Stellen Sie sicher, dass Ihre Daten nicht beschädigt sind, und laden Sie erneut hoch.  Wenn dem Gerät neue, nicht beschädigte Daten hinzugefügt werden, werden fehlerfreie Datensätze geladen und die beschädigten übergangen.";
+
+/* An error occurred while communicating with your device. Please remove the device, reconnect, ensure that any required cable is connected tightly and atempt the reading again. */
+"TakeReading_StatusMessage_DeviceError" = "Bei der Kommunikation mit dem Gerät ist ein Fehler aufgetreten.  Entfernen Sie das Gerät, schließen Sie es erneut an, stellen Sie sicher, dass alle erforderlichen Kabel fest angeschlossen sind, und versuchen Sie den Lesevorgang erneut.";
+
+/* The device could not be found. Please be sure that it is connected properly with any necessary cables secured and attempt the reading again. */
+"TakeReading_StatusMessage_DeviceNotFound" = "Das Gerät konnte nicht gefunden werden.  Stellen Sie sicher, dass dieses ordnungsgemäß und mit allen erforderlichen Kabeln angeschlossen ist, und versuchen Sie den Lesevorgang erneut.";
+
+/* An error occurred. An invalid device was identified in the upload token. Please retry your upload at a later time. */
+"TakeReading_StatusMessage_IncorrectDeviceType" = "Es ist ein Fehler aufgetreten.  Im Uploadtoken wurde ein ungültiges Gerät erkannt.  Versuchen Sie den Uploadvorgang zu einem späteren Zeitpunkt.";
+
+/* Your readings could not be uploaded. All measurements on the device were found to have a date or time in the future. Please check your device settings. */
+"TakeReading_StatusMessage_InvalidItemsFutureDated" = "Your readings could not be uploaded.  All measurements on the device were found to have a date or time in the future.  Please check your device settings. (de)";
+
+/* An error occurred. An invalid upload token was processed. Please retry your upload at a later time. */
+"TakeReading_StatusMessage_InvalidUploadToken" = "Es ist ein Fehler aufgetreten.  Es wurde ein ungültiger Uploadtoken verarbeitet. Versuchen Sie den Uploadvorgang zu einem späteren Zeitpunkt.";
+
+/* The Upload Service is not currently available. Please try again in a few minutes. If you continue experiencing issues, please submit a support ticket. */
+"TakeReading_StatusMessage_ServiceException" = "Der Uploaddienst ist derzeit nicht verfügbar.  Versuchen Sie es in einigen Minuten erneut.  Wenn die Probleme weiterhin bestehen, übertragen Sie ein Supportticket.";
+
+/* Your information was successfully uploaded. */
+"TakeReading_StatusMessage_Success" = "Ihre Daten wurden erfolgreich hochgeladen.  Eintragszahl: [%d]";
+
+/* Your readings were successfully uploaded. However, there were no new readings to process. */
+"TakeReading_StatusMessage_SuccessNoNewItems" = "Ihre Ergebnisse wurden erfolgreich hochgeladen.  Es waren jedoch keine neu zu verarbeitenden Ergebnisse vorhanden.";
+
+/* Your readings were successfully uploaded. However, there were some invalid items. */
+"TakeReading_StatusMessage_SuccessSomeInvalidItems" = "Ihre Ergebnisse wurden erfolgreich hochgeladen.  Es traten jedoch einige ungültige Einträge auf.  Eintragszahl: [%d]";
+
+/* Your readings were successfully uploaded. However, there were some invalid measurements with dates or times that are in the future. Measurements with dates in the future are rejected - please check your device. */
+"TakeReading_StatusMessage_SuccessSomeInvalidItemsFutureDated" = "Your readings were successfully uploaded.  However, there were some invalid measurements with dates or times that are in the future.  Measurements with dates in the future are rejected - please check your device.  Item Count: [%d] (de)";
+
+/* An unexpected error occurred while loading your device's driver. If this issue continues, please submit a support ticket. */
+"TakeReading_StatusMessage_UnableToLoadDeviceDriver" = "Beim Laden des Gerätetreibers ist ein unerwarteter Fehler aufgetreten.  Wenn das Problem weiterhin besteht, übertragen Sie ein Supportticket.";
+
+/* An unexpected error occurred while communicating with your device. Please remove the device, recconect, ensure that any required cable is connected tightly and attempt the reading again. */
+"TakeReading_StatusMessage_UnexpectedError" = "Bei der Kommunikation mit dem Gerät ist ein unerwarteter Fehler aufgetreten.  Entfernen Sie das Gerät, schließen Sie es erneut an, stellen Sie sicher, dass alle erforderlichen Kabel fest angeschlossen sind, und versuchen Sie den Lesevorgang erneut.";
+
+/* The device reading was cancelled by the user. Please retry when you are ready to upload your reading. */
+"TakeReading_StatusMessage_UserCancelled" = "Der Lesevorgang für das Gerät wurde vom Benutzer abgebrochen.  Versuchen Sie beim nächsten Lesevorgang erneut, die Ergebnisse hochzuladen.";
+
+/*Please be sure your device is connected and in the proper mode. To initiate the reading, click the Start Upload button above. */
+"Default_UploadMessage" = "Stellen Sie sicher, dass Ihr Gerät angeschlossen und im richtigen Modus ist.  Um den Lesevorgang zu initiieren, klicken Sie oben auf die Schaltfläche „Upload starten“.";
+
+/*Please fill in your First Name before continuing */
+"Registration_MissingFirstName_Message" = "Geben Sie zunächst Ihren Vornamen ein.";
+
+/*"Please fill in your Last Name before continuing" */
+"Registration_MissingLastName_Message" = "Geben Sie zunächst Ihren Nachnamen ein.";
+
+/*"Please fill in your Username before continuing" */
+"Registration_MissingUserName_Message" = "Geben Sie zunächst Ihren Benutzernamen ein.";
+
+/*"Please fill in your Email before continuing" */
+"Registration_MissingEmail_Message" = "Geben Sie zunächst Ihre E-Mail-Adresse ein.";
+
+/*"Please fill in your Password before continuing" */
+"Registration_MissingPassword_Message" = "Geben Sie zunächst Ihr Kennwort ein.";
+
+/*"Registration could not be completed successfully.  Please try again later." */
+"Registration_UnexpectedError_Message" = "Die Registrierung konnte nicht erfolgreich abgeschlossen werden.  Versuchen Sie es später erneut.";
+
+/*"Please enter a valid email address." */
+"Registration_InvalidEmailAddress_Message" = "Geben Sie eine gültige E-Mail-Adresse ein.";
+
+/*"Please be sure that the Password and Confirm Password fields match." */
+"Registration_PasswordMismatch_Message" = "Stellen Sie sicher, dass die Felder „Kennwort“ und „Kennwort bestätigen“ übereinstimmen.";
+
+/* M3 IT Blood Pressure Monitor (HEM-7131U-E) */
+"M3_BloodPressure_Monitor" = "M400 IT Blood Pressure Monitor";
+
+/* M6 IT Blood Pressure Monitor (HEM-7322U-E) */
+"M6_BloodPressure_Monitor" = "M600 IT Blood Pressure Monitor";
+
+/* M3 IT Blood Pressure Monitor (HEM-7131U-E) */
+"M3_BloodPressure_Monitor_Tag" = "HEM-7131U-D";
+
+/* M6 IT Blood Pressure Monitor (HEM-7322U-E) */
+"M6_BloodPressure_Monitor_Tag" = "HEM-7322U-D";
+
+/* Remember Me */
+"SettingsPage_RememberMe_Label" = "Mich Erinnern";
+
+/* Remove User */
+"SettingsPage_RemoveUser_Label" = "Benutzer Entfernen";
+
+/* Choose a device to upload data from */
+"DeviceSelect_ChooseLabel" = "Wählen Sie ein Gerät , um Daten aus hochladen";
+
+/* Forgot Password? */
+"Forgot Password" = "Passwort Vergessen?";
+
+/* Select the default user of the device */
+"UserSelection_SelectLabel" = "Wählen Sie die Standard Benutzer des Gerätes";
+
+/* User A */
+"UserSelection_UserA" = "Benutzer 1 (A)";
+
+/* User B */
+"UserSelection_UserB" = "Benutzer 2 (B)";
+
+/* Username */
+"LoginView_Username" = "Benutzername";
+
+/* Password */
+"LoginView_Password" = "Kennwort";
+
+/* Remember Me */
+"LoginView_RememberMe" = "Mich Erinnern";
+
+/* Forgot Password? */
+"LoginView_ForgotPassword" = "Passwort vergessen?";
+
+/* Username */
+"createUser_username" = "Benutzername";
+
+/* Last Name */
+"createUser_lastname" = "Nachname";
+
+/* First Name */
+"createUser_firstname" = "Vorname";
+
+/* Email */
+"createUser_email" = "E-Mail";
+
+/* Password */
+"createUser_pword" = "Kennwort";
+
+/* Confirm Password */
+"createUser_confirm" = "Passwort Bestätigen";
+
+/* Timezone */
+"createUser_timezone" = "Zeitzone";
+
+/* Country */
+"createUser_country" = "Land";
+
+/* Culture */
+"createUser_culture" = "Kultur";
+
+/* Accept */
+"eulaAccept" = "Zustimmen";
+
+/* Decline */
+"eulaDecline" = "Abbrechen";
+
+/* sign in */
+"SIGN_IN" = "anmelden";
+
+/* Eula Path */
+"EULA_path" = "EULA_Bi-LINK_DE.pdf";
+
+/* create user */
+"CreateUser" = "Konto erstellen";
+
+/* Remember Me Label*/
+"Remember Me" = "Remember Me (DE)";
+
+/* Uregister device label*/
+"Unregister Device" = "Unregister Device (DE)";
+
+
