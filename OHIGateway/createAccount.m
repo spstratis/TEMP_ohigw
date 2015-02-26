@@ -121,13 +121,21 @@ NSPropertyListFormat format;
                     switch (status)
                     {
                         case 0:
+                            [_headerUserName setStringValue:[_email stringValue]];
                             [_createError setHidden:YES];
                             [_fname setStringValue:@""];
                             [_lname setStringValue:@""];
                             [_email setStringValue:@""];
                             [_pword setStringValue:@""];
                             [_confirm setStringValue:@""];
-                            [[_mainWindow contentView] replaceSubview:self with:_mainMenu];
+                            
+                            [_deviceScroll setDocumentView:(_deviceSelect)];
+                            NSPoint newOrigin = NSMakePoint(0, NSMaxY([[_deviceScroll documentView] frame]) -
+                                                            [[_deviceScroll contentView] bounds].size.height);
+                            [[_deviceScroll documentView] scrollPoint:newOrigin];
+                            [_headerUserName setHidden:NO];
+                            [_headerDropdown setHidden:NO];
+                            [[_mainWindow contentView] replaceSubview:self with:_deviceScroll];
                             break;
                         case 1:
                         case 2:

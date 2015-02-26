@@ -1060,6 +1060,8 @@
                 <outlet property="email" destination="1266" id="1397"/>
                 <outlet property="errorField" destination="ndf-HX-gbY" id="YA4-4I-ahv"/>
                 <outlet property="fname" destination="1226" id="1395"/>
+                <outlet property="headerDropdown" destination="k8w-nX-VhG" id="JHj-7v-zfb"/>
+                <outlet property="headerUserName" destination="fcT-yM-p42" id="5Ax-Qt-R62"/>
                 <outlet property="lname" destination="1250" id="1396"/>
                 <outlet property="mainMenu" destination="700" id="cKu-eh-fNb"/>
                 <outlet property="mainWindow" destination="576" id="wLh-de-qOL"/>
@@ -1068,6 +1070,7 @@
                 <outlet property="timezone" destination="ybz-5M-Hc7" id="ubx-SX-oIi"/>
                 <outlet property="uploadPage" destination="1356" id="geC-wM-Bek"/>
                 <outlet property="username" destination="1474" id="1531"/>
+                <outlet property="usernameField" destination="fcT-yM-p42" id="m1B-OZ-V7h"/>
             </connections>
             <point key="canvasLocation" x="270.5" y="515.5"/>
         </customView>

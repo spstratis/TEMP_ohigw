@@ -29,5 +29,7 @@
 @property (weak) IBOutlet NSPopUpButton *timezone;
 @property (weak) IBOutlet NSTextField *errorField;
 @property (weak) IBOutlet NSView *createError;
+@property (weak) IBOutlet NSTextField *headerUserName;
+@property (weak) IBOutlet NSButton *headerDropdown;
 
 @end

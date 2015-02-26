@@ -107,9 +107,20 @@ static NSString *baseURL = @"https://apps1.numerasocial.com/gatewayrestservices2
                 if (resultStatus != Success) {
                     return (int)resultStatus;
                 } else {
-                    userToken = [responseDictionary objectForKey:@"UserToken"];
-                    userTokenURL = (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(NULL,
-                                                                                                         (CFStringRef)[responseDictionary objectForKey:@"UserToken"],
+                    /** Store the returned user info **/
+                    NSDictionary *result = [responseDictionary objectForKey:@"result"];
+                    //NSDictionary *profile = [result objectForKey:@"Profile"];
+                    [[User_Class sharedUser]  setFirstName:[result objectForKey:@"FirstName"]];
+                    [[User_Class sharedUser]  setLastName:[result objectForKey:@"LastName"]];
+                    [[User_Class sharedUser]  setEmail:[result objectForKey:@"Email"]];
+                    [[User_Class sharedUser]  setAccountId:[result objectForKey:@"AccountId"]];
+                    [[User_Class sharedUser]  setAccountNumber:[result objectForKey:@"AccountNumber"]];
+                    [[User_Class sharedUser]  setToken:[result objectForKey:@"UserToken"]];
+                    
+                    userToken = [result objectForKey:@"UserToken"];
+                    userTokenURL = (NSString *)CFBridgingRelease(CFURLCreateStringByAddingPercentEscapes(
+                                                                                                         NULL,
+                                                                                                         (CFStringRef)[[User_Class sharedUser] valueForKey:@"Token"],
                                                                                                          NULL,
                                                                                                          (CFStringRef)@"!*'();:@&=+$,/?%#[]",
                                                                                                          kCFStringEncodingUTF8 ));
