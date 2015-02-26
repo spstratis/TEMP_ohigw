@@ -161,7 +161,7 @@ NSString *deviceID = nil;
         NSPoint newOrigin = NSMakePoint(0, NSMaxY([[_deviceScroll documentView] frame]) -
                                         [[_deviceScroll contentView] bounds].size.height);
         [[_deviceScroll documentView] scrollPoint:newOrigin];
-        NSString *namelabel = [NSString stringWithFormat:@"%@ %@", [[User_Class sharedUser] valueForKey:@"FirstName"], [[[User_Class sharedUser] valueForKey:@"LastName"] substringToIndex:1]];
+        NSString *namelabel = [NSString stringWithFormat:@"%@ ", [[User_Class sharedUser] valueForKey:@"Email"]];
         [_accountName setStringValue:namelabel];
         [_accountName setHidden:NO];
         [_menuButton setHidden:NO];
