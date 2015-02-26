@@ -59,7 +59,7 @@
 {
     
     [[NSWorkspace sharedWorkspace]
-        openURL:[NSURL URLWithString:@"https://my.numera-staging.com/nis/index?wa=wsignin1.0&wctx=nis.forgot&wtrealm=http://OHI.Staging&wreply=https://ohi.numerasocial.com/Dashboard/Overview&wauth=http://swt"]];
+        openURL:[NSURL URLWithString:@"https://my.numera.com/nis/index?wa=wsignin1.0&wctx=nis.forgot&wtrealm=http://OHI&wreply=https://www.omronwellness.com/Dashboard/Overview&wauth=http://swt"]];
 }
 
 @end
