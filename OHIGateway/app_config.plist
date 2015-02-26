@@ -4,5 +4,7 @@
 <dict>
 	<key>ServicesURL</key>
 	<string>https://apps1.numerasocial.com/gatewayrestservices201/api</string>
+	<key>forgotPasswordURL</key>
+	<string>&quot;https://my.numera.com/nis/index?wa=wsignin1.0&amp;wctx=nis.forgot&amp;wtrealm=http://OHI&amp;wreply=https://www.omronwellness.com/Dashboard/Overview&amp;wauth=http://swt&quot;</string>
 </dict>
 </plist>
