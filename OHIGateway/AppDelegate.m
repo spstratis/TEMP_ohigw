@@ -49,12 +49,15 @@ NSString *deviceID = nil;
     if([string isEqualToString:@"1"]) {
         [serializeUser fillUserClass];
         [_rememberme_toggle setState:NSOnState];
-        NSString *namelabel = [NSString stringWithFormat:@"%@ %@", [[User_Class sharedUser] valueForKey:@"FirstName"], [[[User_Class sharedUser] valueForKey:@"LastName"] substringToIndex:1]];
+        NSString *namelabel = [NSString stringWithFormat:@"%@", [[User_Class sharedUser] valueForKey:@"Email"]];
         [_accountName setStringValue:namelabel];
         [_accountName setHidden:NO];
         [_menuButton setHidden:NO];
-        [_deviceScroll setDocumentView:(_uploadPage)];
+        [_deviceScroll setDocumentView:(_deviceSelect)];
         [[_window contentView] addSubview:_deviceScroll];
+        NSPoint newOrigin = NSMakePoint(0, NSMaxY([[_deviceScroll documentView] frame]) -
+                                        [[_deviceScroll contentView] bounds].size.height);
+        [[_deviceScroll documentView] scrollPoint:newOrigin];
     } else {
         [[_window contentView] addSubview:_mainMenu];
     }
@@ -77,6 +80,9 @@ NSString *deviceID = nil;
 {
     if([_rememberme_toggle state] == NSOffState)
         [[User_Class sharedUser] setRememberMe:@"0"];
+    else if([_rememberme_toggle state] == NSOnState)
+        [[User_Class sharedUser] setRememberMe:@"1"];
+    
     if([[[User_Class sharedUser] valueForKey:@"RememberMe"]  isEqual: @"1"]) {
         [serializeUser createXML];
         [NSApp terminate: nil];

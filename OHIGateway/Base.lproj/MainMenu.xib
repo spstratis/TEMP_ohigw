@@ -1657,7 +1657,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
                 <pdfView autoresizesSubviews="NO" wantsLayer="YES" id="eWg-sj-cVM">
-                    <rect key="frame" x="11" y="34" width="710" height="382"/>
+                    <rect key="frame" x="11" y="30" width="710" height="382"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </pdfView>
                 <button verticalHuggingPriority="750" id="BFX-oU-EBs">
@@ -1671,10 +1671,10 @@
                         <action selector="createAccount:" target="494" id="sZm-bq-cd3"/>
                     </connections>
                 </button>
-                <button id="eGO-RY-9qc">
-                    <rect key="frame" x="86" y="420" width="39" height="21"/>
+                <button verticalHuggingPriority="750" id="eGO-RY-9qc">
+                    <rect key="frame" x="85" y="413" width="39" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="print-icon" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="bb3-qf-yB0">
+                    <buttonCell key="cell" type="push" bezelStyle="rounded" image="print-icon" imagePosition="only" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bb3-qf-yB0">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
@@ -1682,26 +1682,15 @@
                         <action selector="print:" target="eWg-sj-cVM" id="avp-py-z99"/>
                     </connections>
                 </button>
-                <button id="oXT-Si-qIx">
-                    <rect key="frame" x="11" y="424" width="39" height="21"/>
+                <button verticalHuggingPriority="750" id="oXT-Si-qIx">
+                    <rect key="frame" x="11" y="413" width="39" height="32"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="bevel" title="+" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="Mrs-kE-JCc">
+                    <buttonCell key="cell" type="push" title="+" bezelStyle="rounded" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Mrs-kE-JCc">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
                     <connections>
                         <action selector="zoomIn:" target="eWg-sj-cVM" id="OBF-1b-PFN"/>
-                    </connections>
-                </button>
-                <button id="wmE-hS-vip">
-                    <rect key="frame" x="51" y="424" width="36" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="bevel" title="-" bezelStyle="rounded" alignment="center" imageScaling="proportionallyDown" inset="2" id="7VV-Ip-26r">
-                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                        <font key="font" metaFont="system"/>
-                    </buttonCell>
-                    <connections>
-                        <action selector="zoomOut:" target="eWg-sj-cVM" id="bD9-Nq-Mmf"/>
                     </connections>
                 </button>
                 <button verticalHuggingPriority="750" id="m4R-BZ-dDD">
@@ -1716,7 +1705,7 @@
                     </connections>
                 </button>
                 <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="wma-ue-zs9">
-                    <rect key="frame" x="9" y="428" width="714" height="17"/>
+                    <rect key="frame" x="124" y="429" width="499" height="17"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Terms of Service" placeholderString="Terms of Service" id="H8d-Af-Frz">
                         <font key="font" metaFont="system" size="15"/>
@@ -1724,6 +1713,17 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
+                <button verticalHuggingPriority="750" id="wmE-hS-vip">
+                    <rect key="frame" x="49" y="413" width="36" height="32"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="push" title="-" bezelStyle="rounded" imagePosition="overlaps" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="7VV-Ip-26r">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                    <connections>
+                        <action selector="zoomOut:" target="eWg-sj-cVM" id="bD9-Nq-Mmf"/>
+                    </connections>
+                </button>
             </subviews>
         </customView>
         <customView id="pg2-Ui-s10" userLabel="User Selection" customClass="UserSelectionView">
