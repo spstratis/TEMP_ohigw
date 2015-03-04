@@ -802,7 +802,7 @@
                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <button id="579" customClass="mouseover_NSButton">
+                <button id="579">
                     <rect key="frame" x="264" y="126" width="205" height="37"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="sign-in-blank" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="615">
@@ -916,7 +916,7 @@
                         <outlet property="nextKeyView" destination="kke-MX-gJF" id="VBO-SF-H84"/>
                     </connections>
                 </textField>
-                <button id="1335" customClass="mouseover_NSButton">
+                <button id="1335">
                     <rect key="frame" x="250" y="11" width="233" height="40"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                     <buttonCell key="cell" type="bevel" bezelStyle="rounded" image="sign-in-blank" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="1336">
