@@ -74,6 +74,12 @@
 /*"Please enter a valid email address." */
 "Registration_InvalidEmailAddress_Message" = "Please enter a valid email address.";
 
+/* Duplicate Email */
+"A user with this e-mail already exists, please use a different one." = "A user with this e-mail already exists, please use a different one.";
+
+/* Registration Error Alert Message Alert  */
+"A user with this username already exists, please use another one." = "A user with this username already exists, please use a different one.";
+
 /*"Please be sure that the Password and Confirm Password fields match." */
 "Registration_PasswordMismatch_Message" = "Please be sure that the Password and Confirm Password fields match.";
 

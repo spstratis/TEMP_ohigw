@@ -148,10 +148,16 @@ NSPropertyListFormat format;
                         case 9:
                         case 10:
                         case 11:
-                            [_errorField setStringValue:NSLocalizedString(@"Registration_UnexpectedError_Message", @"Registration failed. A user with this email account already exists.")];
+                            [_errorField setStringValue:NSLocalizedString(@"A user with this e-mail already exists, please use a different one.", @"Registration failed. A user with this email account already exists.")];
+                            [_createError setHidden:NO];
+                            break;
+                        case 12:
+                            [_errorField setStringValue:NSLocalizedString(@"A user with this username already exists, please use another one.", @"Registration could not be completed successfully.  Please try again later.")];
                             [_createError setHidden:NO];
                             break;
                         default:
+                            [_errorField setStringValue:NSLocalizedString(@"Registration_UnexpectedError_Message", @"Registration could not be completed successfully.  Please try again later.")];
+                            [_createError setHidden:NO];
                             break;
                     }
                 }
