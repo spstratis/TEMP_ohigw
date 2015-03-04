@@ -9,7 +9,7 @@
 #import "OMNumeraConnection.h"
 #import "GWUtilities.h"
 #import "User_Class.h"
-
+#import "NMReachability.h"
 
 @implementation OMNumeraConnection
 
@@ -37,6 +37,12 @@ static NSString *baseURL = @"https://apps1.numerasocial.com/gatewayrestservices2
                                    culture:(NSString *)culture
                                   timezone:(NSString *)timezone; {
 
+    /** Check network availability before all else **/
+    if ([self isNetworkAvailable] == FALSE) {
+        DDLogError(@"[OMNumeraConnection registerUser] - Network is unavailable");
+        return ConnectionError;
+    }
+    
     NSString *endPoint = [NSString stringWithFormat:@"%@nisperson", baseURL];
     
     /** Build out the payload dictionary for the request url **/
@@ -140,6 +146,13 @@ static NSString *baseURL = @"https://apps1.numerasocial.com/gatewayrestservices2
 
 
 + (NSInteger)authenticateUser:(NSString *)userName withPassword:(NSString *)password {
+    
+    /** Check network availability before all else **/
+    if ([self isNetworkAvailable] == FALSE) {
+        DDLogError(@"[OMNumeraConnection registerUser] - Network is unavailable");
+        return ConnectionError;
+    }
+    
     NSString *endPoint = [NSString stringWithFormat:@"%@nisperson", baseURL];
     NSError * error;
     NSHTTPURLResponse *response;
@@ -218,6 +231,13 @@ static NSString *baseURL = @"https://apps1.numerasocial.com/gatewayrestservices2
 
 
 + (APIResponseCode)registerDevice:(NSString *)deviceID asUser:(int)userRegistration {
+    
+    /** Check network availability before all else **/
+    if ([self isNetworkAvailable] == FALSE) {
+        DDLogError(@"[OMNumeraConnection registerUser] - Network is unavailable");
+        return ConnectionError;
+    }
+    
     NSString *endPoint = [NSString stringWithFormat: @"%@deviceregistration", baseURL];
     
     NSMutableDictionary *payloadDict = [[NSMutableDictionary alloc] initWithCapacity:4];
@@ -339,6 +359,18 @@ static NSString *baseURL = @"https://apps1.numerasocial.com/gatewayrestservices2
         }
     }
     return result;
+}
+
++ (BOOL)isNetworkAvailable {
+    NMReachability *reachability = [NMReachability reachabilityWithHostName:@"staging.numerasocial.com"];
+    NetworkStatus internetStatus = [reachability currentReachabilityStatus];
+    
+    if(internetStatus == NotReachable){
+        DDLogError(@"OMNumeraConnection - Network is currently not available");
+        return FALSE;
+    } else {
+        return TRUE;
+    }
 }
 
 @end

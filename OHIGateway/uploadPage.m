@@ -15,6 +15,8 @@
 #import "DDTTYLogger.h"
 #import "DDFileLogger.h"
 #import "User_Class.h"
+#import "NMReachability.h"
+
 
 @implementation uploadPage
 
@@ -52,6 +54,7 @@
 
 - (IBAction)uploadEvent:(id)sender
 {
+    
     NSInteger defaultUser = 1;
     NSLog(@"default user : %ld", (long)defaultUser);
     uploadReturn *returnData = [[uploadReturn alloc]init];
@@ -71,6 +74,18 @@
     NSString *deviceSerialNumber = [_deviceSerialNumber stringValue];
     NSString *deviceID;
     NSString *deviceData;
+    
+    /** Check network availability before all else **/
+    if ([self isNetworkAvailable] == FALSE) {
+        DDLogError(@"[OMNumeraConnection registerUser] - Network is unavailable");
+        [_uploadMessage setStringValue:NSLocalizedString(@"You're not currently connected to the internet, please connect with a network and try agian.", @"Please be sure your device is connected and in the proper mode. To initiate the reading, click the Start Upload button above.")];
+        [_startUpload setHidden:YES];
+        [_loader startAnimation:self];
+        [_retryUpload setHidden:NO];
+        [_uploadMore setHidden:YES];
+        [_reviewUpload setHidden:YES];
+        return;
+    }
     
     if ([deviceSerialNumber  isEqual: @"HJ-323U / HJ-322U"]) {
         HJ322UDriver *driver = [[HJ322UDriver alloc] init];
@@ -201,6 +216,7 @@
             }
         }
     }
+    
     if (getDataFromDevice == Success) {
         @try {
             if ((status != 0) && (status != 1) && (status != 2) && (status != 8)) {
@@ -238,4 +254,15 @@
         [[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"http://omronwellness.com"]];
 }
 
+- (BOOL)isNetworkAvailable {
+    NMReachability *reachability = [NMReachability reachabilityWithHostName:@"staging.numerasocial.com"];
+    NetworkStatus internetStatus = [reachability currentReachabilityStatus];
+    
+    if(internetStatus == NotReachable){
+        DDLogError(@"OMNumeraConnection - Network is currently not available");
+        return FALSE;
+    } else {
+        return TRUE;
+    }
+}
 @end

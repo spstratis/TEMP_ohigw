@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62FA22891AA6D40300EA7FD0 /* NMReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FA22881AA6D40300EA7FD0 /* NMReachability.m */; };
 		ABC1BF7F1A9518930098F9AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC1BF7E1A9518930098F9AD /* main.m */; };
 		ABC1BF901A9518930098F9AD /* OHIGatewayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC1BF8F1A9518930098F9AD /* OHIGatewayTests.m */; };
 		ABC1C08B1A9519D60098F9AD /* back-to-devices-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC1BF9A1A9519D50098F9AD /* back-to-devices-icon.png */; };
@@ -148,6 +149,8 @@
 
 /* Begin PBXFileReference section */
 		624E80CB1A9B658B00E51E3A /* OHIGateway.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = OHIGateway.entitlements; sourceTree = "<group>"; };
+		62FA22871AA6D40300EA7FD0 /* NMReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMReachability.h; sourceTree = "<group>"; };
+		62FA22881AA6D40300EA7FD0 /* NMReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMReachability.m; sourceTree = "<group>"; };
 		ABC1BF761A9518930098F9AD /* Omron Driver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Omron Driver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC1BF7A1A9518930098F9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABC1BF7E1A9518930098F9AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -536,6 +539,8 @@
 			children = (
 				ABC1C0531A9519D60098F9AD /* OMNumeraConnection.h */,
 				ABC1C0541A9519D60098F9AD /* OMNumeraConnection.m */,
+				62FA22871AA6D40300EA7FD0 /* NMReachability.h */,
+				62FA22881AA6D40300EA7FD0 /* NMReachability.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -1046,6 +1051,7 @@
 				ABC1C1111A9519D60098F9AD /* UnregisterDeviceView.m in Sources */,
 				ABC1C0F61A9519D60098F9AD /* NSMenuItem+extended.m in Sources */,
 				ABC1C0B21A9519D60098F9AD /* createAccount.m in Sources */,
+				62FA22891AA6D40300EA7FD0 /* NMReachability.m in Sources */,
 				ABC1C11B1A9519D60098F9AD /* xmlObject.m in Sources */,
 				ABD6E9C11A9634DB000C2A60 /* DDTTYLogger.m in Sources */,
 				ABD6E9BB1A9634DB000C2A60 /* CLIColor.m in Sources */,
