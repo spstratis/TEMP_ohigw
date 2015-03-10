@@ -1220,7 +1220,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Omron Healthcare, Inc. (UJ8LU8NH7Z)";
+				CODE_SIGN_IDENTITY = "Developer ID Installer: Omron Healthcare, Inc. (UJ8LU8NH7Z)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1244,7 +1244,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = OHIGateway/OHIGateway.entitlements;
-				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Omron Healthcare, Inc. (UJ8LU8NH7Z)";
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREFIX_HEADER = "OHIGateway/Omron2-Prefix.pch";
 				INFOPLIST_FILE = OHIGateway/Info.plist;
@@ -1259,6 +1260,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = OHIGateway/OHIGateway.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Installer: Omron Healthcare, Inc. (UJ8LU8NH7Z)";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREFIX_HEADER = "OHIGateway/Omron2-Prefix.pch";
 				INFOPLIST_FILE = OHIGateway/Info.plist;

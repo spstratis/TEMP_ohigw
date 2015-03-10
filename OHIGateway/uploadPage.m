@@ -178,14 +178,14 @@
                 break;
             }
             case SomeNewItems:{
-                [_uploadMessage setStringValue:[NSString stringWithFormat:NSLocalizedString(@"TakeReading_StatusMessage_SuccessSomeInvalidItems", @"Your readings were successfully uploaded. However, there were some invalid items."), itemcount]];
+                [_uploadMessage setStringValue:[NSString stringWithFormat:NSLocalizedString(@"TakeReading_StatusMessage_Success", @"Your information was successfully uploaded."), itemcount]];
                 [_uploadMore setHidden:NO];
                 [_reviewUpload setHidden:NO];
                 [_retryUpload setHidden:YES];
                 break;
             }
             case CorruptData:{
-                [_uploadMessage setStringValue:NSLocalizedString(@"TakeReading_StatusMessage_CorruptData", @"Some of the provided data was corrupt or in an unexpected format. Please ensure your data is not corrupt and upload again. If new data is added to the device that is not corrupt, good records will be loaded and corrupt records will be ignored.")];
+                [_uploadMessage setStringValue:[NSString stringWithFormat:NSLocalizedString(@"TakeReading_StatusMessage_Success", @"Your information was successfully uploaded."), itemcount]];
                 [_retryUpload setHidden:NO];
                 break;
             }
